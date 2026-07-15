@@ -1,5 +1,7 @@
-Follow the principles of object-oriented programming, modular design, and TDD.  
-Keep modules small; split reusable or separable logic into modules or submodules.  
-Prefer public functions unless a helper clearly needs to stay private.  
-Favor reusable code when it is likely to benefit other modules or future work.  
-Write tests with real value, and add as many useful tests as practical.
+Make package and module structures, names, responsibilities, and code readable to newcomers.
+Use object-oriented design, modularity, TDD, and the single-responsibility principle.
+Keep modules small and focused, with clear boundaries and dependencies.
+Maintain high cohesion and low coupling.
+Test success, failure, boundary, and edge cases.
+Fix every failure until the full test suite passes.
+Create multiple atomic commits, each limited to the smallest practical change.
